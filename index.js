@@ -11,7 +11,7 @@ const config = require("./config");
 
 const app = express();
 //setting Port
-app.set("port", process.env.PORT || 5000);
+app.set("port", process.env.PORT || 3000);
 
 //serve static files in the public directory
 app.use(express.static("public"));
@@ -63,11 +63,11 @@ const sessionIds = new Map();
  * https://developers.facebook.com/docs/messenger-platform/product-overview/setup#subscribe_app
  *
  */
-app.post("/webhook/", function (req, res) {
+app.post("/api-ai/", function (req, res) {
     var data = req.body;
     // Make sure this is a page subscription
     console.log('debug webhook',data);
-    if (data.object == "page") {
+    if (data.object === "page") {
         // Iterate over each entry
         // There may be multiple if batched
         data.entry.forEach(function (pageEntry) {
@@ -155,7 +155,7 @@ const callSendAPI = async (messageData) => {
     const url = "https://graph.facebook.com/v3.0/me/messages?access_token=" + config.FB_PAGE_TOKEN;
     await axios.post(url, messageData)
         .then(function (response) {
-            if (response.status == 200) {
+            if (response.status === 200) {
                 var recipientId = response.data.recipient_id;
                 var messageId = response.data.message_id;
                 if (messageId) {
@@ -172,7 +172,7 @@ const callSendAPI = async (messageData) => {
         .catch(function (error) {
             console.log(error.response.headers);
         })
-}
+};
 
 function handleApiAiResponse(sender, response) {
     let responseText = response.result.fulfillment.speech;

@@ -1,0 +1,19 @@
+{
+  "name": "weather-pro-prebuilt-agent",
+  "version": "1.0.1",
+  "description": "Thank God, you're here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BOSS @ dialogflowvn.wordpress.com",
+  "license": "ISC",
+  "dependencies": {
+    "dialogflow": "^0.1.0",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
