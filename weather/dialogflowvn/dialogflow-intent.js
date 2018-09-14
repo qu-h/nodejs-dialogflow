@@ -50,21 +50,26 @@ const weatherActivityHandlers = {
 
 const weatherJS = require('weather-js');
 const weatherGet = (queryResult,parameters) => {
-    let pAddress = parameters.fields['address'],
-        pUnit = parameters.fields['unit'],
-        addressStr = 'Hanoi';
+    let addressStr = 'Hanoi', unitStr= 'C';
+    if( parameters.fields ){
+        let pAddress = parameters.fields['address'],
+            pUnit = parameters.fields['unit'];
 
-    if (!!pAddress.structValue) {
+        if (!!pAddress.structValue) {
 
-        addressStr = pAddress.structValue.fields.city.stringValue;
+            addressStr = pAddress.structValue.fields.city.stringValue;
 
-    } else if (!!pAddress.stringValue) {
+        } else if (!!pAddress.stringValue) {
 
-        addressStr = pAddress.stringValue;
+            addressStr = pAddress.stringValue;
+        }
+        unitStr = pUnit.stringValue;
+    } else if (queryResult.parameters.address) {
+        addressStr  = queryResult.parameters.address;
+        unitStr     = queryResult.parameters.unit;
     }
 
-    let unitStr = pUnit.stringValue;
-
+    console.log('begin check weather addressStr:%s | unitStr:%s',addressStr,unitStr);
     return new Promise(function(resolve, reject) {
         weatherJS.find({ search: addressStr, degreeType: unitStr, },
             function(err, weatherResult) {
@@ -110,8 +115,8 @@ const aiInformationIntents = [
     'AI-information:age'
 ];
 
-const getInformation = function(responses,env){
-    let text = responses[0].queryResult.fulfillmentText;
+const getInformation = function(queryResult,env){
+    let text = queryResult.fulfillmentText;
     text = text.replace('[bot-name]', process.env.BOOT_NAME);
 
     let ageTxt= '',
