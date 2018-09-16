@@ -29,22 +29,18 @@ const rl = readline.createInterface({
     prompt: 'User : ',
 });
 
-
-
-const botAnswer = (txt)=>{
+const botAnswer = function(txt){
     if( typeof txt === 'string'){
         console.log('Bot  : ' + txt);
     } else {
         console.log('error',{txt} );
     }
     rl.prompt();
-
 };
 
 rl.prompt();
 rl.on('line', (line) => {
     let userSay = line.trim();
-
     if (userSay.length <= 0) {
         rl.prompt();
         return;
@@ -67,6 +63,7 @@ rl.on('line', (line) => {
         .then((responses) => {
             const result = responses[0].queryResult, intentName = result.intent.displayName;
             let msg="";
+            
             if (weatherIntents.includes(intentName)) {
                 let weatherPromise = weatherGet(result,result.parameters);
                 weatherPromise.then(function (msg) {

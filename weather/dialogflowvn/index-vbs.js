@@ -52,13 +52,13 @@ const sendTextMessage = (senderId, text) => {
 const botAnswer = (queryResult,txt)=>{
     let senderId;
     if( queryResult.outputContexts.length > 0 ){
-        senderId = queryResult.outputContexts[0].parameters.facebook_sender_id;
+    	let outputContext = queryResult.outputContexts.filter(context => (typeof context.parameters.facebook_sender_id !== 'undefined' && context.parameters.facebook_sender_id.length > 0));
+        senderId = outputContext[0].parameters.facebook_sender_id;
     }
     if( senderId ){
-        console.log('======================ON MESSAGE WEB HOOK OTHER FLATFORM ==========================================================');
         sendTextMessage(senderId, txt);
     } else {
-        console.log('no data action',request.body.queryResult)
+        console.log('no data action',queryResult.outputContexts)
     }
 
 };

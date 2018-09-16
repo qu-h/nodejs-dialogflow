@@ -1,6 +1,5 @@
 'use strict';
 
-
 const weatherIntents = [
     'weather',
     'weather - context:weather - comment:activity',
@@ -49,8 +48,9 @@ const weatherActivityHandlers = {
 };
 
 const weatherJS = require('weather-js');
-const weatherGet = (queryResult,parameters) => {
-    let addressStr = 'Hanoi', unitStr= 'C';
+const weatherGet = (queryResult) => {
+    let addressStr = 'Hanoi', unitStr= 'C', parameters = queryResult.parameters;
+
     if( parameters.fields ){
         let pAddress = parameters.fields['address'],
             pUnit = parameters.fields['unit'];
@@ -110,36 +110,4 @@ const weatherGet = (queryResult,parameters) => {
     });
 };
 
-const aiInformationIntents = [
-    'AI-information',
-    'AI-information:age'
-];
-
-const moment = require('moment');
-
-const getInformation = function(queryResult,env){
-    let text = queryResult.fulfillmentText;
-    text = text.replace('[bot-name]', process.env.BOOT_NAME);
-
-    let ageTxt= '',
-        birthDate = moment(new Date(process.env.BOOT_BIRTH)), currentDate = moment(),
-        duration = moment.duration(currentDate.diff(birthDate));
-
-    //console.log('debug ===============BOOT_BIRTH:%s | birthDate:%s | currentDate:%s | duration:%s',process.env.BOOT_BIRTH,birthDate,currentDate,duration);
-
-    if( duration.days() > 0 ){
-        ageTxt += duration.days()+ ' ngày';
-    }
-    if( duration.hours() > 0 ){
-        ageTxt += " "+ duration.hours()+ ' giờ';
-
-        if( duration.days() < 10 && duration.minutes() > 1 ){
-            ageTxt += " "+ duration.minutes()+ ' phút';
-        }
-    }
-    
-    text = text.replace('[age]', ageTxt);
-    return text;
-};
-
-module.exports = {weatherIntents,aiInformationIntents,weatherGet,getInformation};
+module.exports = {weatherIntents,weatherGet};
