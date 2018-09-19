@@ -80,6 +80,8 @@ class lunarDate{
     constructor(dateStr) {
         if( typeof dateStr === 'undefined'){
             this.solarDate = moment();
+        } else {
+            this.solarDate = dateStr;
         }
         let dateCurrent = this.solarDate;
         this.dateName = [];
@@ -293,14 +295,14 @@ class lunarDate{
         this.getGioHoangDao(jd);
         this.tietKhi = TietKhi[sunLon];
         this.getDayName();
-        // let s = this.getDayString(this.lunarDate, sday, smonth, syear);
-        // s += " \u00E2m l\u1ECBch\n";
-        // s += this.getDayName(this.lunarDate);
-        // s += "\nGi\u1EDD \u0111\u1EA7u ng\u00E0y: "+ this.getCanHour0(jd)+" "+ DiaChi[0];
-        // s += "\nTi\u1EBFt: "+ TietKhi[sunLon];
-        // s += "\nGi\u1EDD ho\u00E0ng \u0111\u1EA1o: "+ this.getGioHoangDao(jd);
-        // return s;
     }
-
+    get dayFullname(){
+        return "ngày "+this.dateName.day + ", tháng " + this.dateName.month + ", năm " + this.dateName.year +" ("+this.lunarDate.day+'/'+this.lunarDate.month+'/'+this.lunarDate.year+")";
+    }
 }
+
+const getLunar = function(date){
+    return new lunarDate(date);
+};
+module.exports = {getLunar};
 

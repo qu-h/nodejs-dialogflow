@@ -55,11 +55,16 @@ rl.on('line', (line) => {
         .detectIntent(request)
         .then((responses) => {
             let ai = new chatBot(responses,request), AI_promise = ai.promiseGet;
-            AI_promise.then(function (msg) {
-                botAnswer(msg);
-            }).catch(function (e) {
-                botAnswer('Have error!');
-            });
+            if( typeof AI_promise === 'undefined'){
+                botAnswer('Have error!',AI_promise);
+            } else {
+                AI_promise.then(function (msg) {
+                    botAnswer(msg);
+                }).catch(function (e) {
+                    botAnswer('Have error!');
+                });
+            }
+
 
             // const result = responses[0].queryResult, intentName = result.intent.displayName;
             // let msg="";
