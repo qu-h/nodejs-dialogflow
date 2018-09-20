@@ -65,23 +65,6 @@ rl.on('line', (line) => {
                 });
             }
 
-
-            // const result = responses[0].queryResult, intentName = result.intent.displayName;
-            // let msg="";
-            // if (weatherIntents.includes(intentName)) {
-            //     let weatherPromise = weatherGet(result,result.parameters);
-            //     weatherPromise.then(function (msg) {
-            //         botAnswer(msg);
-            //     }).catch(function () {
-            //         botAnswer('Have error!');
-            //     });
-            // } else if ( aiInformationIntents.includes(intentName) ){
-            //     msg = getInformation(responses,process.env);
-            //     botAnswer(msg);
-            // } else {
-            //     msg = result.fulfillmentText;
-            //     botAnswer(msg);
-            // }
         })
         .catch((err) => {
             console.error('ERROR:', err);

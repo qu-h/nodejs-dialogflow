@@ -23,7 +23,10 @@ class dialogflow_ai {
 
 	intentObject(){
         const {informationIntentNames,getInformation} = require('./infomation/me');
-        //console.log('instant name: %s',this.intentName);
+
+
+        let intentPhase = this.intentName.split('.');
+        console.log('instant name: %s',this.intentName,intentPhase);
 
         if( fs.existsSync(__dirname+'/intent-name/'+this.intentName+'.js') ) {
             const {intents,responses} = require('./intent-name/'+this.intentName);
