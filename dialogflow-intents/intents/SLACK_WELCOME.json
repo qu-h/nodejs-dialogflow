@@ -1,0 +1,28 @@
+{
+  "id": "546068d4-58b1-42aa-98f8-ef2d46b8b84d",
+  "name": "SLACK_WELCOME",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Xin chao ban den tu slack"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536744415,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "cbf0fec7-7786-4b8f-b688-c2b455daf10e",
+  "parentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "rootParentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "name": "weather.activity - yes",
+  "auto": true,
+  "contexts": [
+    "weather",
+    "weatheractivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weatheractivity.weatheractivity-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Let\u0027s do it"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

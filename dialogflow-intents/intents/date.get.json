@@ -1,0 +1,59 @@
+{
+  "id": "944dec71-13fc-4633-b22f-5f2806f26c5b",
+  "name": "date.get",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.get",
+      "affectedContexts": [
+        {
+          "name": "date-get",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7d225ce7-5beb-4c56-be8e-15738a097b99",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "8435999f-8487-41b3-ab2c-a7007a9f6cd5",
+          "required": false,
+          "dataType": "@date-type",
+          "name": "date-type",
+          "value": "$date-type",
+          "isList": false
+        },
+        {
+          "id": "ef2019b9-c1e3-4f4c-9c1e-ae706dbc1b5c",
+          "dataType": "@unit-day",
+          "name": "unit-day",
+          "value": "$unit-day",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "hôm nay là ngày [date-string]"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537641402,
+  "fallbackIntent": false,
+  "events": []
+}

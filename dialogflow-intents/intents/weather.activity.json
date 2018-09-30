@@ -1,0 +1,86 @@
+{
+  "id": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "name": "weather.activity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weather.activity",
+      "affectedContexts": [
+        {
+          "name": "weather",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "weatheractivity-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fa681de9-b8fd-4ce3-8861-e78f9ab54012",
+          "required": false,
+          "dataType": "@activity",
+          "name": "activity",
+          "value": "$activity",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "d40c891a-1bb4-49b8-9031-11a79ef4cba9",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "3276ab2e-945d-4a62-ab7f-23b2b07965c5",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "address",
+          "value": "$address",
+          "prompts": [],
+          "defaultValue": "Hanoi",
+          "isList": false
+        },
+        {
+          "id": "a5b7891d-9ff6-422c-9ca3-d6e27afdbbae",
+          "required": false,
+          "dataType": "@unit-temperature",
+          "name": "unit",
+          "value": "C",
+          "prompts": [],
+          "defaultValue": "C",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It\u0027s [status] in [address] ([temperature]˚[unit]). How do you think?",
+            "The weather\u0027s [status]. How do you think?",
+            "It’s forecast to [status] in [address]. How do you think?",
+            "It looks like [status] in [address] ([temperature]˚[unit]). How do you think?",
+            "Probably about [temperature]˚[unit]. How do you think?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1497455178899,
+  "fallbackIntent": false,
+  "events": []
+}

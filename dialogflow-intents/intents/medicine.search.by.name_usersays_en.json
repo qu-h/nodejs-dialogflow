@@ -1,0 +1,56 @@
+[
+  {
+    "id": "e748630d-cd97-4b77-98cc-b5eb44dd3209",
+    "data": [
+      {
+        "text": "cho toi thong tin ve thuoc ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "alias": "medicine_name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536740082
+  },
+  {
+    "id": "c0e5daab-c366-4d6b-beed-16833051b6c8",
+    "data": [
+      {
+        "text": "thuoc ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "alias": "medicine_name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536656302
+  },
+  {
+    "id": "dd841233-3c21-4b96-9cf7-abb2ef9ef953",
+    "data": [
+      {
+        "text": "Thong tin ve thuoc ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "alias": "medicine_name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536656165
+  }
+]

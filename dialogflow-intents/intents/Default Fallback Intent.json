@@ -1,0 +1,34 @@
+{
+  "id": "2b875415-18aa-41e9-a44f-336601127748",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Tôi chưa hiểu ý của bạn, bạn có thể nói rõ hơn không ?",
+            "Bạn có thể nhắc lại câu hỏi không ?",
+            "Xin lỗi, bạn có thể nhắc lại câu hỏi không ?",
+            "Xin hãy nhắc lại câu hỏi"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536566663,
+  "fallbackIntent": true,
+  "events": []
+}

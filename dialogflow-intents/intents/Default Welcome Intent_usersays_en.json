@@ -1,0 +1,62 @@
+[
+  {
+    "id": "f287b905-a57a-4b07-b8fe-9631fb54a7aa",
+    "data": [
+      {
+        "text": "xin chào",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536551986
+  },
+  {
+    "id": "a58697ce-262f-405b-8e67-fd5bfa141a4a",
+    "data": [
+      {
+        "text": "xin chao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536551986
+  },
+  {
+    "id": "69cc4fb0-8a12-456f-85ae-d71f4b6bed6a",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8dc162f2-1aa4-4c84-aee8-638df21b84d4",
+    "data": [
+      {
+        "text": "hello there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf12b25b-f5d5-480e-9ba3-dc288e00a196",
+    "data": [
+      {
+        "text": "a good day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

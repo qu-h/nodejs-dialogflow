@@ -1,0 +1,173 @@
+[
+  {
+    "id": "7ea10743-9cf9-4218-b44e-9d59454910b4",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "to",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " know ",
+        "userDefined": false
+      },
+      {
+        "text": "the",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "current year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "749d046d-68b3-4140-87a9-ecbb8067d19d",
+    "data": [
+      {
+        "text": "current year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c7c75013-1ba7-4fad-8240-f37da69fd6c4",
+    "data": [
+      {
+        "text": "tell me the current ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1698a530-7a7b-432f-9b3d-4267c23c26d8",
+    "data": [
+      {
+        "text": "what year is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0fc5a1bc-a2e0-4276-84dd-b62fd5f59448",
+    "data": [
+      {
+        "text": "what is the current ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "363c9e1f-7953-43f1-9462-f708aec2b6c7",
+    "data": [
+      {
+        "text": "I wonder which ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " are ",
+        "userDefined": false
+      },
+      {
+        "text": "we",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "130aef88-65bc-49e2-b761-694066fdf66d",
+    "data": [
+      {
+        "text": "year now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "10d4e102-76b8-4065-816d-9c0c7e43b594",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

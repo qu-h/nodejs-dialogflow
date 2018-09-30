@@ -1,0 +1,34 @@
+{
+  "id": "a90f6c96-890f-463d-86cf-72e10c6042bc",
+  "parentId": "c713719a-3845-4e23-ab35-82f18128de17",
+  "rootParentId": "c713719a-3845-4e23-ab35-82f18128de17",
+  "name": "weather - context:weather - comment:activity - later",
+  "auto": true,
+  "contexts": [
+    "weather",
+    "weather-contextweather-commentactivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weather-contextweather-commentactivity.weather-contextweather-commentactivity-later",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124752,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "52221cde-0dfa-4992-bd3b-2f8631e31346",
+  "name": "language",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "program.language",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "26024906-9705-48b6-ba4a-3375e9b1dc8c",
+          "required": false,
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language",
+          "prompts": [],
+          "defaultValue": "vietnamese",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "tôi có thể nói $language"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536804866,
+  "fallbackIntent": false,
+  "events": []
+}

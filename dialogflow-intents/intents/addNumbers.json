@@ -1,0 +1,46 @@
+{
+  "id": "091a8f94-2220-4f72-80f7-af47743c8890",
+  "name": "addNumbers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "add-numbers",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "10db9102-f3cd-4427-93a7-2b4f3e91f59d",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        },
+        {
+          "id": "85829d96-ee5b-4fed-abf4-87d6c3c6580f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number1",
+          "value": "$number1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "chua tim ra ket qua"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536655924,
+  "fallbackIntent": false,
+  "events": []
+}

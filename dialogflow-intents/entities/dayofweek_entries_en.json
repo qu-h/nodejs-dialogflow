@@ -1,0 +1,70 @@
+[
+  {
+    "value": "Tuesday",
+    "synonyms": [
+      "Tuesday",
+      "Tue"
+    ]
+  },
+  {
+    "value": "Wednesday",
+    "synonyms": [
+      "Wednesday",
+      "Wed"
+    ]
+  },
+  {
+    "value": "Saturday",
+    "synonyms": [
+      "Saturday",
+      "Sat"
+    ]
+  },
+  {
+    "value": "Monday",
+    "synonyms": [
+      "Monday",
+      "Mon",
+      "thứ 2",
+      "thu 2",
+      "thu hai"
+    ]
+  },
+  {
+    "value": "Friday",
+    "synonyms": [
+      "Friday",
+      "Fri",
+      "thứ 6",
+      "thu 6",
+      "thu sau",
+      "thứ sáu"
+    ]
+  },
+  {
+    "value": "Thursday",
+    "synonyms": [
+      "Thursday",
+      "Thu"
+    ]
+  },
+  {
+    "value": "Sunday",
+    "synonyms": [
+      "Sunday",
+      "Sun",
+      "chủ nhật",
+      "chu nhat"
+    ]
+  },
+  {
+    "value": "Monday",
+    "synonyms": [
+      "Monday",
+      "thu 2",
+      "thứ 2",
+      "thứ hai",
+      "thu hai"
+    ]
+  }
+]

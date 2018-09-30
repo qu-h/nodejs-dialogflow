@@ -1,0 +1,48 @@
+{
+  "id": "697c9cb0-0c3f-434a-a847-22ca9fef21c4",
+  "name": "medicine.search.by.name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "medicine-search-by-name",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4ba11ae8-125f-436e-a4ca-47139c0f1e44",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "medicine_name",
+          "value": "$medicine_name",
+          "isList": false
+        },
+        {
+          "id": "5f007907-de61-46e3-af4a-f3f3c5096c68",
+          "required": false,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Xin lỗi, tôi không tìm thấy thông tin của thuốc.\nXin hãy thử lại."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536742188,
+  "fallbackIntent": false,
+  "events": []
+}

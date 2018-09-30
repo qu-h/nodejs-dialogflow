@@ -1,0 +1,234 @@
+[
+  {
+    "id": "d2a1d7b6-1df3-487f-a4cd-a6383c6d6661",
+    "data": [
+      {
+        "text": "check if ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": "\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "April",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5e9a70b8-b2a7-44a0-99ab-f90d58e76374",
+    "data": [
+      {
+        "text": "do you know if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "March",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6eb6f8cf-05ca-4ce3-8bbd-9b4cb86e4d8b",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "May",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bb8fbaec-8893-4ba8-bd76-c7cb7caae993",
+    "data": [
+      {
+        "text": "February",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": " is coming isn\u0027t it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7218a2ba-331b-4c8a-ad13-57b4cfbf0e60",
+    "data": [
+      {
+        "text": "could you tell if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "May",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d16b7970-5063-4039-be9d-f2c4e26d3c04",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "August",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": " already",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2215a322-a41f-4625-acf3-1e55a5b75373",
+    "data": [
+      {
+        "text": "tell me if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "July",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e9557cc5-ba78-4332-b6ff-a034529b19e9",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " still ",
+        "userDefined": false
+      },
+      {
+        "text": "June",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ead056fd-6005-432c-afbc-f8ebe16120ca",
+    "data": [
+      {
+        "text": "today is ",
+        "userDefined": false
+      },
+      {
+        "text": "February",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2044a058-4f8a-4089-91a8-a7df43f3ad58",
+    "data": [
+      {
+        "text": "it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "December",
+        "alias": "date-period",
+        "meta": "@sys.date-period",
+        "userDefined": true
+      },
+      {
+        "text": " right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

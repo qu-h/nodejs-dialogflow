@@ -1,0 +1,382 @@
+[
+  {
+    "id": "8c646e90-9515-4807-b520-288fa6f51194",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "days",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " are between ",
+        "userDefined": false
+      },
+      {
+        "text": "November 13",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "July 22",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f896d0b-9d39-406d-b7fc-7863520ddd12",
+    "data": [
+      {
+        "text": "calculate the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "minutes",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "Wednesday",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f31e09e-e572-49f1-97a7-03da396add09",
+    "data": [
+      {
+        "text": "compute the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "seconds",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "March 7 2017",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "89286817-3eaf-4429-bede-e51e37a9e886",
+    "data": [
+      {
+        "text": "tell me the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "weeks",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "January 1st",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "87008545-fa03-41f9-88d4-b54c9cc94648",
+    "data": [
+      {
+        "text": "I need to know the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "days",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and the ",
+        "userDefined": false
+      },
+      {
+        "text": "next Friday",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3c02357-8828-4748-b192-a4fbca07ea24",
+    "data": [
+      {
+        "text": "count the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "hours",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "June 5",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "June 14",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6023957-2f4c-47b7-a29d-b7b661c29fca",
+    "data": [
+      {
+        "text": "number of ",
+        "userDefined": false
+      },
+      {
+        "text": "seconds",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "April 1st",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f29f39ff-19f4-42a9-9d3e-a51b277ef4c2",
+    "data": [
+      {
+        "text": "what is the number of ",
+        "userDefined": false
+      },
+      {
+        "text": "years",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " between ",
+        "userDefined": false
+      },
+      {
+        "text": "2017",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "2048",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a35964fd-e375-433a-9c67-1e35769ebe4f",
+    "data": [
+      {
+        "text": "evaluate how many ",
+        "userDefined": false
+      },
+      {
+        "text": "days",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " are between ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "February 14 2018",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75ab0282-4abf-4960-bfdd-17e96fb4e416",
+    "data": [
+      {
+        "text": "how many ",
+        "userDefined": false
+      },
+      {
+        "text": "months",
+        "alias": "unit",
+        "meta": "@unit-time",
+        "userDefined": true
+      },
+      {
+        "text": " are there between ",
+        "userDefined": false
+      },
+      {
+        "text": "January 2013",
+        "alias": "date-1",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "August 2017",
+        "alias": "date-2",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "64f9dd72-b334-4c84-90d0-8b235fbe528e",
+  "name": "me.information:age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "hiện nay tôi đã [age] tuổi",
+            "hôm nay tôi [age] tuổi"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537343985,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "24b09e4d-7ae4-47f8-8fe9-6dec721a9d8e",
+  "name": "weather - context:weather - comment:address",
+  "auto": true,
+  "contexts": [
+    "weather"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#weather.intent_action",
+      "affectedContexts": [
+        {
+          "name": "weather",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "fe7ab946-61f0-48c2-8e03-9651dcd589c0",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "address",
+          "value": "$address",
+          "prompts": [],
+          "defaultValue": "Hanoi",
+          "isList": false
+        },
+        {
+          "id": "c918b2f3-9546-421f-a167-0d4218e21169",
+          "required": false,
+          "dataType": "@unit-temperature",
+          "name": "unit",
+          "value": "#weather.unit",
+          "isList": false
+        },
+        {
+          "id": "714511b1-8410-486b-b85f-a66d2a5a9586",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "#weather.date-time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It\u0027s [status] in [address] ([temperature]˚[unit])",
+            "The weather\u0027s [status]",
+            "It’s forecast to [status] in [address]",
+            "It looks like [status] in [address] ([temperature]˚[unit])",
+            "Probably about [temperature]˚[unit]"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1497455178876,
+  "fallbackIntent": false,
+  "events": []
+}

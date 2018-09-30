@@ -1,0 +1,63 @@
+{
+  "description": "This agent lets your app users ask about the current data, calculate between dates, determine how many days until another date, etc.",
+  "language": "en",
+  "shortDescription": "Date calculator and holiday lookup",
+  "examples": "User: Do you know what day it is?\nUser: What date is next Friday?\nUser: How long until Thanksgiving?\nUser: What is the date of Columbus day in 2015?\nUser: How long until Christmas?\nUser: When is Thanksgiving this year?",
+  "linkToDocs": "",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "697c9cb0-0c3f-434a-a847-22ca9fef21c4",
+        "signInRequired": false
+      },
+      {
+        "intentId": "091a8f94-2220-4f72-80f7-af47743c8890",
+        "signInRequired": false
+      },
+      {
+        "intentId": "da878672-2f14-4a5d-ae1f-070876e483da",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "21afabb5-c216-417e-a752-8c73a2440c2a",
+      "da878672-2f14-4a5d-ae1f-070876e483da",
+      "52221cde-0dfa-4992-bd3b-2f8631e31346"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "https://f298927a.ngrok.io/api-ai",
+    "headers": {
+      "": ""
+    },
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

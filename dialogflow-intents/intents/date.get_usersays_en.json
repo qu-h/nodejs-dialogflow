@@ -1,0 +1,485 @@
+[
+  {
+    "id": "3d32fa37-50cc-4ff2-b066-34f67167b589",
+    "data": [
+      {
+        "text": "chủ nhật tới là ngày bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537641402
+  },
+  {
+    "id": "984f0710-95ad-46fe-91bd-f48c930f4c67",
+    "data": [
+      {
+        "text": "ngay mai",
+        "alias": "unit-day",
+        "meta": "@unit-day",
+        "userDefined": false
+      },
+      {
+        "text": " la ngay bao nhieu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537639435
+  },
+  {
+    "id": "873843fd-7b1c-46df-9547-e3171b3d433b",
+    "data": [
+      {
+        "text": "nay la ngay bao nhieu ",
+        "userDefined": false
+      },
+      {
+        "text": "lunar",
+        "alias": "date-type",
+        "meta": "@date-type",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537332281
+  },
+  {
+    "id": "f4f7fe98-5144-4ad6-b639-c9c2edbbaabd",
+    "data": [
+      {
+        "text": "nay ngay bao nhieu ",
+        "userDefined": false
+      },
+      {
+        "text": "lunar",
+        "alias": "date-type",
+        "meta": "@date-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537329866
+  },
+  {
+    "id": "c1a99e86-6d14-409f-a97c-e42d7d608499",
+    "data": [
+      {
+        "text": "hom nay",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " ngay bao nhieu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "edce62c8-f471-4314-b805-c5491cb8c00d",
+    "data": [
+      {
+        "text": "hom nay",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " la ngay bao nhieu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537329866
+  },
+  {
+    "id": "122fc32c-6041-444d-9844-97f02d71b03e",
+    "data": [
+      {
+        "text": "hôm nay",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " là ngày bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537329550
+  },
+  {
+    "id": "3bf95599-40e7-4641-aa6e-42637ef8343b",
+    "data": [
+      {
+        "text": "hôm nay",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " ngày bao nhiêu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537329550
+  },
+  {
+    "id": "f1c0a60a-f9fa-4243-802c-039e0efdf8dc",
+    "data": [
+      {
+        "text": "can you tell me the date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57a1b1f7-8aee-44b5-8c9d-3540102f1ef1",
+    "data": [
+      {
+        "text": "current date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "31268ebf-6fe4-4ba7-9212-eabc2572dbf9",
+    "data": [
+      {
+        "text": "what is the date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14a109de-81aa-4032-9262-4225c202a286",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "day",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "22a127b2-cbfc-4f7b-80f0-e2b3a3f35b58",
+    "data": [
+      {
+        "text": "what day was ",
+        "userDefined": false
+      },
+      {
+        "text": "yesterday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0163174b-b981-4bb3-981c-f2bde090ec98",
+    "data": [
+      {
+        "text": "the date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0f5c11c3-b544-415b-a8db-a2085b1c63ae",
+    "data": [
+      {
+        "text": "tomorrow\u0027s",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "917624c0-7de1-4b50-b66b-67164a8b6517",
+    "data": [
+      {
+        "text": "what is the day ",
+        "userDefined": false
+      },
+      {
+        "text": "after tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0d1c4c8e-dc2e-4d43-b17c-0475cd2f0d3d",
+    "data": [
+      {
+        "text": "what is the current date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "747411ae-20d1-4e85-806d-bb3311ae930e",
+    "data": [
+      {
+        "text": "date now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "2ebfa524-c677-4976-b085-e76589d147bb",
+    "data": [
+      {
+        "text": "what date is ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "e0dadaff-66f2-47d3-9820-dbdbfca4a0d6",
+    "data": [
+      {
+        "text": "do you know what ",
+        "userDefined": false
+      },
+      {
+        "text": "day",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "e0b14564-47ba-40eb-95a6-3d106f6b5f11",
+    "data": [
+      {
+        "text": "what date is it on ",
+        "userDefined": false
+      },
+      {
+        "text": "Thursday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "cde7ac9c-4716-4055-9062-6dd2e96bd26d",
+    "data": [
+      {
+        "text": "what date is the ",
+        "userDefined": false
+      },
+      {
+        "text": "next Friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "38b0fe12-29dc-4910-b698-23b705caa0c3",
+    "data": [
+      {
+        "text": "what date is ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "158692b9-d916-45b5-aa52-ea98f19cf27e",
+    "data": [
+      {
+        "text": "what will be the date ",
+        "userDefined": false
+      },
+      {
+        "text": "30 days from now",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "f163f4ae-39a3-4bca-a4bb-530024cb6bb1",
+    "data": [
+      {
+        "text": "tell me the date ",
+        "userDefined": false
+      },
+      {
+        "text": "19 weeks from today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "84d74136-aa09-4a99-aa9a-b0a1885dda57",
+    "data": [
+      {
+        "text": "do you know what ",
+        "userDefined": false
+      },
+      {
+        "text": "day",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " it is",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "7d2ab520-cdfb-4bd6-9933-296760bfc2f8",
+    "data": [
+      {
+        "text": "date ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "e18e560b-e611-4c90-be99-ebc673594b29",
+    "data": [
+      {
+        "text": "show me the date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  },
+  {
+    "id": "62c0cb2e-41e2-4db4-b919-8ed28ab656f2",
+    "data": [
+      {
+        "text": "today\u0027s",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537321413
+  }
+]

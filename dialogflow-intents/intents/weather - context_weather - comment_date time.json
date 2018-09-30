@@ -1,0 +1,64 @@
+{
+  "id": "00fb056b-fe4c-42a3-8de1-fd538b3e9225",
+  "name": "weather - context:weather - comment:date time",
+  "auto": true,
+  "contexts": [
+    "weather"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#weather.intent_action",
+      "affectedContexts": [
+        {
+          "name": "weather",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cc96de26-bd1d-43fa-a353-56955cadacc3",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "isList": false
+        },
+        {
+          "id": "ba209d34-e65d-4b2e-8447-e83677f5ffca",
+          "dataType": "@sys.location",
+          "name": "address",
+          "value": "#weather.address"
+        },
+        {
+          "id": "3e2adfbe-29f2-4bad-86d4-c3a0d94cb6de",
+          "dataType": "@unit-temperature",
+          "name": "unit",
+          "value": "#weather.unit"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It\u0027s [status] in [address] ([temperature]˚[unit])",
+            "The weather\u0027s [status]",
+            "It’s forecast to [status] in [address]",
+            "It looks like [status] in [address] ([temperature]˚[unit])",
+            "Probably about [temperature]˚[unit]"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1497455178865,
+  "fallbackIntent": false,
+  "events": []
+}

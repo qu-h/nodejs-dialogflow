@@ -1,0 +1,34 @@
+{
+  "id": "eb581587-4d92-44cd-896a-53de3dea4de5",
+  "parentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "rootParentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "name": "weather.activity - no",
+  "auto": true,
+  "contexts": [
+    "weather",
+    "weatheractivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weatheractivity.weatheractivity-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "^^"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": []
+}

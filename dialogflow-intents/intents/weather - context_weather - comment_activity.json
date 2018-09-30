@@ -1,0 +1,81 @@
+{
+  "id": "c713719a-3845-4e23-ab35-82f18128de17",
+  "name": "weather - context:weather - comment:activity",
+  "auto": true,
+  "contexts": [
+    "weather"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#weather.intent_action",
+      "affectedContexts": [
+        {
+          "name": "weather",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "weather-contextweather-commentactivity-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6326cba6-df86-44ca-a8eb-4f82c8d24db3",
+          "required": false,
+          "dataType": "@activity",
+          "name": "activity",
+          "value": "$activity",
+          "isList": false
+        },
+        {
+          "id": "281710f4-99a4-4e12-8cca-df64f7d4a40f",
+          "required": false,
+          "dataType": "@sys.location",
+          "name": "address",
+          "value": "#weather.address",
+          "isList": false
+        },
+        {
+          "id": "c2b51ace-2010-4691-b9b0-c550a63b0e8f",
+          "required": false,
+          "dataType": "@unit-temperature",
+          "name": "unit",
+          "value": "#weather.unit",
+          "isList": false
+        },
+        {
+          "id": "3e2fe997-4c5b-4513-8386-adc1db8fb6f4",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "#weather.date-time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "It\u0027s [status] in [address] ([temperature]˚[unit]). How do you think?",
+            "The weather\u0027s [status]. How do you think?",
+            "It’s forecast to [status] in [address]. How do you think?",
+            "It looks like [status] in [address] ([temperature]˚[unit]). How do you think?",
+            "Probably about [temperature]˚[unit]. How do you think?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1497455178930,
+  "fallbackIntent": false,
+  "events": []
+}

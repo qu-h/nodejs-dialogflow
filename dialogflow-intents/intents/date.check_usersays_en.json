@@ -1,0 +1,170 @@
+[
+  {
+    "id": "4520ee16-3e5e-4f18-b0fb-018360c0c3ff",
+    "data": [
+      {
+        "text": "thu 6 toi",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " la ngay bao nhieu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537586007
+  },
+  {
+    "id": "8496967c-2304-4043-964b-05a999028ad0",
+    "data": [
+      {
+        "text": "is it the ",
+        "userDefined": false
+      },
+      {
+        "text": "21st of February",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5286b215-0c56-4d13-b4f5-722d59df840d",
+    "data": [
+      {
+        "text": "check if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "Monday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Luxembourg",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537585662
+  },
+  {
+    "id": "059a9a59-07fb-4d30-8b35-212160ed7ef2",
+    "data": [
+      {
+        "text": "I\u0027d like to know if it\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "January 2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537585662
+  },
+  {
+    "id": "76b4199e-6a23-4304-86e9-307ca004cd08",
+    "data": [
+      {
+        "text": "is it ",
+        "userDefined": false
+      },
+      {
+        "text": "June 19th",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537585662
+  },
+  {
+    "id": "6cc1dfa6-ea77-4397-9560-c3b8d0d9468e",
+    "data": [
+      {
+        "text": "is today ",
+        "userDefined": false
+      },
+      {
+        "text": "28th",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537585662
+  },
+  {
+    "id": "1c4ff0d0-db8a-4192-b9cb-d98f44a723c4",
+    "data": [
+      {
+        "text": "are we in ",
+        "userDefined": false
+      },
+      {
+        "text": "March 2017",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98d5d21f-b014-4661-97e2-65973e910021",
+    "data": [
+      {
+        "text": "tell me is it ",
+        "userDefined": false
+      },
+      {
+        "text": "September 8",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Munich",
+        "alias": "location",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537585662
+  }
+]

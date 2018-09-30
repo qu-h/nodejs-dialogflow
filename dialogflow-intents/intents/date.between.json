@@ -1,0 +1,50 @@
+{
+  "id": "3d9a9ad2-47b1-4de8-908c-398c5b006abd",
+  "name": "date.between",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "date.between",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1c521611-49b5-4d19-a086-e3f72d71bd2f",
+          "dataType": "@sys.date",
+          "name": "date-1",
+          "value": "$date-1",
+          "isList": false
+        },
+        {
+          "id": "095a7e43-dc4a-4fe4-8a44-9c7a77a785e5",
+          "dataType": "@sys.date",
+          "name": "date-2",
+          "value": "$date-2"
+        },
+        {
+          "id": "ab08cd95-b579-4156-89a2-d84719ea3abb",
+          "dataType": "@unit-time",
+          "name": "unit",
+          "value": "$unit",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1504180922893,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "82e7c24d-bbd1-4307-9567-11b27e5b387e",
+  "parentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "rootParentId": "26ed0882-8fc2-4821-9bc8-fd6a182e7aca",
+  "name": "weather.activity - cancel",
+  "auto": true,
+  "contexts": [
+    "weather",
+    "weatheractivity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "weatheractivity.weatheractivity-cancel",
+      "affectedContexts": [
+        {
+          "name": "cancel-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124722,
+  "fallbackIntent": false,
+  "events": []
+}

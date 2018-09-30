@@ -1,0 +1,136 @@
+[
+  {
+    "id": "e09165ee-2e1b-457e-a2cd-eaea7e590b65",
+    "data": [
+      {
+        "text": "not ",
+        "userDefined": false
+      },
+      {
+        "text": "right now",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "9286baf0-f853-4e35-afc2-a77dc9af7bc4",
+    "data": [
+      {
+        "text": "not yet",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "31044d70-6b8d-40d0-804c-4c17beb0fdbc",
+    "data": [
+      {
+        "text": "ask me later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c3f331bd-1ac7-4b1d-be07-f018f7ad7679",
+    "data": [
+      {
+        "text": "do ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48f92c32-a1d9-42d0-b238-36aa4b15b4c5",
+    "data": [
+      {
+        "text": "I said later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57192c46-fce5-4fc5-a1ef-6bae2246ef00",
+    "data": [
+      {
+        "text": "later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "aa7a0f2b-5620-40e2-8661-558cc1ce9e5d",
+    "data": [
+      {
+        "text": "some other time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1498819260
+  },
+  {
+    "id": "439098ce-a14b-428e-ac62-505b03e3085e",
+    "data": [
+      {
+        "text": "not at this time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1498819260
+  },
+  {
+    "id": "30c61755-e058-4b8b-a2e6-d7c2a56cb9a8",
+    "data": [
+      {
+        "text": "not at the moment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1498819260
+  },
+  {
+    "id": "a3803438-bc68-4864-9f36-610ca055c998",
+    "data": [
+      {
+        "text": "next time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

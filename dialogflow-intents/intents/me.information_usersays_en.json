@@ -1,0 +1,42 @@
+[
+  {
+    "id": "6d9acbf7-75ac-4bff-9491-a694279f615d",
+    "data": [
+      {
+        "text": "bạn",
+        "alias": "person",
+        "meta": "@person",
+        "userDefined": true
+      },
+      {
+        "text": " tên gì",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536923154
+  },
+  {
+    "id": "1598a251-89f6-4331-be59-2b617bee47c2",
+    "data": [
+      {
+        "text": "what ",
+        "userDefined": false
+      },
+      {
+        "text": "your",
+        "alias": "person",
+        "meta": "@person",
+        "userDefined": true
+      },
+      {
+        "text": " name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536824687
+  }
+]

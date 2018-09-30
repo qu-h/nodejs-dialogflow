@@ -1,0 +1,35 @@
+{
+  "id": "2c3ddb3b-379f-40a1-a512-f2375bce5543",
+  "name": "me.information",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "031c4cc7-34cb-42e7-9600-19c760fc530d",
+          "dataType": "@person",
+          "name": "person",
+          "value": "$person"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Tên tôi là [bot-name]"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537585293,
+  "fallbackIntent": false,
+  "events": []
+}

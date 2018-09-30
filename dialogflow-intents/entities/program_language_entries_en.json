@@ -1,0 +1,26 @@
+[
+  {
+    "value": "php",
+    "synonyms": [
+      "php"
+    ]
+  },
+  {
+    "value": "javascript",
+    "synonyms": [
+      "javascript"
+    ]
+  },
+  {
+    "value": "java",
+    "synonyms": [
+      "java"
+    ]
+  },
+  {
+    "value": "python",
+    "synonyms": [
+      "python"
+    ]
+  }
+]
