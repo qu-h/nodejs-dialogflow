@@ -14,7 +14,8 @@
     "firebase-functions": "^2.0.3",
     "@google-cloud/datastore": "1.1.0",
     "actions-on-google": "^2.0.0",
-    "ajv": "^5.0.0"
+    "ajv": "^5.0.0",
+    "dialogflow-fulfillment": "*"
   },
   "devDependencies": {
     "eslint": "^4.12.0",
