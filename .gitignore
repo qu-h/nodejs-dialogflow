@@ -1,6 +1,8 @@
 .idea
 .idea/*
+.firebase/*
 
 weather/dialogflowvn/node_modules/
 weather/dialogflowvn/node_modules/*
 node_modules/*
+functions/node_modules/*
