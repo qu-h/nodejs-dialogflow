@@ -26,6 +26,7 @@ class dialogflow_ai {
         //console.log("queryResult : ",this.queryResult);
         //console.log("fulfillment : ",this.queryResult.fulfillment.speech);
 
+        console.log("source : %s | intentName : %s", this.source, this.intentName);
 
         switch(this.source) {
             case 'facebook':
@@ -51,7 +52,7 @@ class dialogflow_ai {
         let queryResult = this.queryResult;
 
         let intentPhase = this.intentName.split('.');
-        console.log('instant name: %s',this.intentName,intentPhase);
+        //console.log('intentName: %s : intentPhase : %s',this.intentName,intentPhase);
 
         if( fs.existsSync(__dirname+'/intent-name/'+this.intentName+'.js') ) {
             const {intents,responses} = require('./intent-name/'+this.intentName);
@@ -63,6 +64,9 @@ class dialogflow_ai {
             if (intents.includes(this.intentName)) {
                 this.promise = responses(this.source,this.queryResult);
             }
+        } else {
+            this.message = queryResult.fulfillmentText;
+
         }
 	}
 
